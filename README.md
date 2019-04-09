@@ -1,6 +1,6 @@
 # Selenium - Java - Maven - Cucumber
 ## Installation
-Install !(Java JDK)[https://www.oracle.com/technetwork/java/javase/downloads/index.html] and !(Maven)[http://maven.apache.org/] and install the required tools
+Install [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) and [Maven](http://maven.apache.org/) and install the required tools
 ```bash
 mvn clean install
 ```
@@ -17,5 +17,5 @@ mvn clean test -Dcucumber.options="src/test/java/features --tags @@facebook_logi
 ```
 
 ## Reporting 
-surefile reports >> target/surefire-reports
-cucumber reports >> target/cucumber-html-report
+* surefile reports >> target/surefire-reports
+* cucumber reports >> target/cucumber-html-report
