@@ -5,6 +5,8 @@ Install [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/inde
 mvn clean install
 ```
 
+Donwload latest [Chromedriver](http://chromedriver.chromium.org/downloads) and place it anywhere in your avaliable path: `ehco $PATH`
+
 ## Running Cucumber Tests
 Running a feature file 
 ```bash
